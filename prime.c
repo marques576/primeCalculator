@@ -8,19 +8,15 @@ while(1){
 
  prime=0;
 for (int i = 1; i <= cont; i++)
-{
-      
-    
+{ 
     float resultado=cont%i;
     if(resultado==0){
         prime++;
     }
 }
 
-
 if(prime==2){
     printf("prime -> %d\n",cont);
-   
 }
 
 cont++;
