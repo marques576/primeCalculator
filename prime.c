@@ -2,23 +2,23 @@
 #include <time.h>
 int main(){
 int cont=5;
-int primo=0;
+int prime=0;
 
 while(1){
 
- primo=0;
+ prime=0;
 for (int i = 1; i <= cont; i++)
 {
-      //printf("%d (percentagem) %d -> %d \n",cont,i,cont%i);
+      
     
     float resultado=cont%i;
     if(resultado==0){
-        primo++;
+        prime++;
     }
 }
 
 
-if(primo==2){
+if(prime==2){
     printf("prime -> %d\n",cont);
    
 }
